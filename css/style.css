@@ -155,6 +155,38 @@ iframe {
   font-size: xx-large;
 }
 
+/* tablet view 769px and below*/
+@media (max-width: 768px) {
+  #resume-container {
+    padding: 15px 15px;
+    box-shadow: 0px 3px 10px;
+    border-radius: 8px;
+  }
+
+  #resume-container h1{
+    font-size: x-large;
+    text-align: center;
+  }
+}
+
+/* mobile view 480px below*/
+@media (max-width: 480px){
+  #resume-container {
+    padding: 16px 10px;
+    border: 1px solid black;
+  }
+
+  #resume-container h2 {
+    font-size: medium;
+    text-align: center;
+  }
+
+  #resume-container section {
+    margin: 0;
+    gap: 8px;
+  }
+}
+
 /* google_map.html */
 #canvas {
   width: 100%;
